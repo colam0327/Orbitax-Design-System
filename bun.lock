@@ -234,7 +234,7 @@
         "typescript": "catalog:",
       },
       "optionalDependencies": {
-        "@gitbook/fontawesome-pro": "1.0.16",
+        "@fortawesome/fontawesome-free": "1.0.16",
       },
       "peerDependencies": {
         "react": "*",
