@@ -9,4 +9,7 @@ gitbook-math ./public/~gitbook/static/math
 cp -R ../embed/standalone/ ./public/~gitbook/static/embed
 
 # Generate the types
-wrangler types
+if [ -z "$CI" ]; then
+  wrangler types
+fi
+
